@@ -7,15 +7,28 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "ourString",
+				"name": "myBool",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bool",
 						"name": "",
-						"type": "string"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_myBool",
+						"type": "bool"
+					}
+				],
+				"name": "setMyBool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyContract.sol": "MyContract"
+			"contracts/ExampleBoolean.sol": "ExampoleBoolean"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MyContract.sol": {
-			"keccak256": "0xcb8f5564fb05e7f1b2624c0ee4e59b7cbe33d3b1c4056d9698015f6f0bb6f654",
+		"contracts/ExampleBoolean.sol": {
+			"keccak256": "0x8cd66640d89bdca99f84cd7108384a81315547f11706c329f47d8d52fe5937d7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://74c0a6d79b5c572e603e29950de0fdfdb49be74eb244dc91b0a3c5a7a9b245dc",
-				"dweb:/ipfs/QmXxWmW8go5knRjn94YRbDKGZP18UL8PoZDGsjnrZdgYv3"
+				"bzz-raw://7310820c38ac8e7bdc46e2b27a2ee3bbf0e9570a013528a9c3c972dba2bb92e1",
+				"dweb:/ipfs/QmZVFTmr9CAHKMKroT2yqxFuwFsZXaW15mhD5zFkC4wuUo"
 			]
 		}
 	},
